@@ -1,0 +1,13 @@
+request
+PROTOCOL://HOST:PORT/URI
+METHOD HTTP/1.1
+HEADERS
+BODY
+
+response
+HEADERS
+BODY
+
+
+WebSocket
+RabbitMQ
