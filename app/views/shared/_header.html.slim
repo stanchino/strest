@@ -1,0 +1,14 @@
+.navbar.navbar-default.navbar-fixed-top role="navigation"
+  .container-fluid
+    .navbar-header
+      button.navbar-toggle data-toggle="collapse" data-target=".navbar-collapse"
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      = link_to root_path, class: ['navbar-brand']
+        i.fa.fa-empire
+          |  Test HTTP Requests
+    .navbar-collapse.collapse
+      ul.nav.navbar-nav.navbar-right
+        li = link_to "Add Request", '#'

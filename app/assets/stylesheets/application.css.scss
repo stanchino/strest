@@ -1,0 +1,9 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "bootstrap/theme";
+@import "font-awesome";
+@import "sticky_footer";
+
+body {
+  padding-top: $navbar-height + 10px;
+}

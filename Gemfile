@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails'
 # Use postgresql as the database for Active Record
 gem 'pg'
+# Use edge version of sprockets-rails
+gem 'sprockets-rails'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -18,6 +20,15 @@ gem 'slim-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+# Modernizr
+gem 'modernizr-rails'
+# Bootstrap
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+# FontAwsome icons
+gem 'font-awesome-rails'
+# jQuery turbolinks
+gem 'jquery-turbolinks'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -41,9 +52,19 @@ gem 'rspec-rails', group: [:development, :test]
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'byebug', group: [:development, :test]
 
 # Application management
 gem 'foreman'
 
 # Phusion Passenger app server
 gem 'passenger'
+
+# Thin
+gem 'thin'
+
+# Websocket support
+gem 'websocket-rails'
+
+gem 'resque'
+gem 'resque-status'

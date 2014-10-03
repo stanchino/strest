@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+ApiRequest.create(method: ApiRequestConstants::GET, host: 'http://localhost:5000/', uri: '/api_requests', headerlist: ['Content-Type: application/json', 'Autorization: Basic asdf='])
+ApiRequest.create(method: ApiRequestConstants::GET, host: 'http://localhost:5000/', uri: "/api_requests/{id}", headerlist: ['Content-Type: application/json', 'Autorization: Basic asdf='])
